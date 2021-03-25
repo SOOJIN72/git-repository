@@ -20,13 +20,13 @@ int main()
 
     for (i = 0; i < 4; i++)
     {
-        cout << "1) �̸� : ";
+        cout << "1) ÀÌ¸§ : ";
         cin >> team[i].name;
 
         cout << "2) id : ";
         cin >> team[i].id;
 
-        cout << "3) �뵷 : ";
+        cout << "3) ¿ëµ· : ";
         cin >> team[i].salary;
 
         cout << endl;
@@ -34,7 +34,7 @@ int main()
 
     for (j = 0; j < 4; j++)
     {
-        cout << team[j].name << " " << team[j].id << setw(4) << right << team[j].salary << "����" << endl;
+        cout << team[j].name << " " << team[j].id << setw(4) << right << team[j].salary << "¸¸¿ø" << endl;
     }
 
     return 0;
